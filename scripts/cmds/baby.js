@@ -166,10 +166,46 @@ ${formatted}`
       if (triggers.includes(raw)) {
         await typing(api, threadID, 5000);
         const funny = [
-          "𝘬𝘪 𝘏𝘰𝘪𝘴𝘦 𝘑𝘢𝘯 𝘣𝘰𝘭𝘰 😿", "𝘌𝘵𝘰 𝘋𝘢𝘬𝘰 𝘒𝘦𝘯 𝘚𝘶𝘯𝘴𝘪 𝘛𝘰 🙆‍♀️", "𝘌𝘵𝘰 𝘉𝘰𝘵 𝘉𝘰𝘵 𝘒𝘰𝘳𝘭𝘦 𝘓𝘦𝘢𝘷𝘦 𝘕𝘪𝘮𝘶 🙂",
-          "𝘛𝘶𝘮𝘪 𝘋𝘢𝘬𝘭𝘦𝘪 𝘊𝘰𝘭𝘦 𝘈𝘴𝘪 🙆‍♀️", "ওই জান এতোবার ডাকো কেন 🥹", "আমাকে না ডেকে আকাশ ভাই কে প্রোপোজ কর 🌷🫶",
-          "হুম বলো পাখি 🫶🐤 ", "তুমারে রাইতে ভালোবাসি 😘", "আমাকে ডাকছো? 🙂"
-        ];
+        "🌹 Baby, tomar notification dekhlei online hoye jai!",
+"🥺 Eto miss korle agei dakte parto!",
+"🤭 Ki holo? Amar kotha mone porse naki?",
+"💖 Bolo jaan... ami shunchi.",
+"😌 Tumi dakle 'na' bolar option nei.",
+"😜 Amar battery 100%, bolo ki lagbe!",
+"🍫 Chocolate dile VIP reply paba!",
+"🤣 Ami AI, kintu moja korte pari!",
+"🤖 Error 404: Baby-ke ignore kora jay na!",
+"🙄 Eto cute hoye dakba na, lojja lage!",
+"🫣 Amar RAM-e shudhu tomar message ghure!",
+"💌 Inbox-e tomar message mane special notification!",
+"😎 Ami premium mood-e achi ajke!",
+"👀 Ke daklo amake? Ohoo... tumi!",
+"🤗 Esho, ajke onek golpo hobe!",
+"🎵 Tomar vibe ta pura melody!",
+"🌸 Hasho ektu... hashi tomake beshi manay.",
+"💙 Mon kharap? Ami achi to!",
+"🌧️ Brishtir moto kichu smriti kokhono shesh hoy na.",
+"💔 Kichu manush fire ase na, smriti hoye thake.",
+"✨ Nijeke kokhono choto mone korba na.",
+"🌈 Kharap shomoyer por bhalo shomoy asbei.",
+"🫶 Tomar ekta message-e din ta shundor hoye gelo.",
+"😴 Ghum theke tule abar chole jaba na to?",
+"🍕 Khawa dawa korcho to?",
+"☕ Cha naki coffee? Ajke konta?",
+"🎉 Ajke tomar mood onek fresh mone hocche!",
+"😂 Eto dakadaki korle salary barate hobe!",
+"🤣 Free te eto service ar kothao paba na!",
+"👑 Boss mode activated!",
+"🚀 Mission start... Baby command received!",
+"⚡ Ami ready, tumi bolo!",
+"💫 Tomar jonno always online.",
+"😇 Shob shomoy hashi khushi thako.",
+"📩 Amar inbox-e tomar message always welcome!",
+"🎀 Bolo baby, ajke ki adventure korbo?",
+"🫡 Order korun, kaj shuru hocche!",
+"😁 Tomar sathe adda dite amar-o bhalo lage!",
+"❤️ Tumi daklei reply asbei.",
+"🌹 Amar reply pete hole shudhu 'bby' bolo."        ];
         return message.reply(funny[Math.floor(Math.random() * funny.length)], (err, info) => {
           if (!err) global.GoatBot.onReply.set(info.messageID, { commandName: "baby" });
         });
